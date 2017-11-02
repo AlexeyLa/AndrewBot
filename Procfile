@@ -1,1 +1,1 @@
-web: python andrew.py 
+worker: python andrew.py 
