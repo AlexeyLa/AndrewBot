@@ -8,11 +8,11 @@ Created on Mon Aug 14 17:20:47 2017
 import json 
 import requests
 import time
-import page_dollar_scraping
+#import page_dollar_scraping
 from dbhelper import DBHelper
-import requests
-from bs4 import BeautifulSoup
-import time
+#import requests
+#from bs4 import BeautifulSoup
+#import time
 
 db = DBHelper()
 
@@ -74,7 +74,8 @@ def main():
     while True:
         text, chat = get_last_chat_id_and_text(get_updates())
         if (text.lower() == "чо с баксом?"):
-            baks = page_dollar_scraping.get_Baks()
+            baks = 150
+#            baks = page_dollar_scraping.get_Baks()
             send_message("ща...", chat)
             time.sleep(5)            
             send_message(baks, chat)
