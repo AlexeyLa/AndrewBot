@@ -10,6 +10,9 @@ import requests
 import time
 import page_dollar_scraping
 from dbhelper import DBHelper
+import requests
+from bs4 import BeautifulSoup
+import time
 
 db = DBHelper()
 

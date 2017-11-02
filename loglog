@@ -1,0 +1,87 @@
+2017-11-02T10:20:40.557708+00:00 app[api]: Enable Logplex by user alexeyla@mail.ru
+2017-11-02T10:20:40.441799+00:00 app[api]: Release v1 created by user alexeyla@mail.ru
+2017-11-02T10:20:40.557708+00:00 app[api]: Release v2 created by user alexeyla@mail.ru
+2017-11-02T10:20:40.441799+00:00 app[api]: Initial release by user alexeyla@mail.ru
+2017-11-02T10:20:59.000000+00:00 app[api]: Build started by user alexeyla@mail.ru
+2017-11-02T10:21:15.446785+00:00 app[api]: Release v3 created by user alexeyla@mail.ru
+2017-11-02T10:21:15.446785+00:00 app[api]: Deploy 15f2cd5f by user alexeyla@mail.ru
+2017-11-02T10:20:59.000000+00:00 app[api]: Build succeeded
+2017-11-02T10:21:55.778334+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=db840c36-2c1c-4174-8ca6-369e9a9982c3 fwd="203.244.219.242" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:21:57.621590+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=mysterious-woodland-18859.herokuapp.com request_id=b13ef73e-23ac-441e-b860-0b08090e7554 fwd="203.244.219.242" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:21:59.747927+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=HEAD path="/https://mysterious-woodland-18859.herokuapp.com/" host=mysterious-woodland-18859.herokuapp.com request_id=8c89a94d-2cc6-4c03-b06d-a65d83c1a3a6 fwd="203.244.219.28" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:30:30.180783+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=a7513ff0-a6cb-4a41-8bce-b323b2985ace fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:34:04.000000+00:00 app[api]: Build started by user alexeyla@mail.ru
+2017-11-02T10:34:18.134871+00:00 app[api]: Deploy 1fce8c03 by user alexeyla@mail.ru
+2017-11-02T10:34:18.147260+00:00 app[api]: Scaled to web@1:Free by user alexeyla@mail.ru
+2017-11-02T10:34:18.134871+00:00 app[api]: Release v4 created by user alexeyla@mail.ru
+2017-11-02T10:34:04.000000+00:00 app[api]: Build succeeded
+2017-11-02T10:34:21.078216+00:00 heroku[web.1]: Starting process with command `python andrew.py`
+2017-11-02T10:34:23.293873+00:00 app[web.1]: Traceback (most recent call last):
+2017-11-02T10:34:23.293891+00:00 app[web.1]:   File "andrew.py", line 11, in <module>
+2017-11-02T10:34:23.294023+00:00 app[web.1]: ModuleNotFoundError: No module named 'lxml'
+2017-11-02T10:34:23.294006+00:00 app[web.1]:     from lxml import html
+2017-11-02T10:34:23.392340+00:00 heroku[web.1]: State changed from starting to crashed
+2017-11-02T10:34:23.393273+00:00 heroku[web.1]: State changed from crashed to starting
+2017-11-02T10:34:23.378682+00:00 heroku[web.1]: Process exited with status 1
+2017-11-02T10:34:25.871318+00:00 heroku[web.1]: Starting process with command `python andrew.py`
+2017-11-02T10:34:27.844346+00:00 app[web.1]: Traceback (most recent call last):
+2017-11-02T10:34:27.844363+00:00 app[web.1]:   File "andrew.py", line 11, in <module>
+2017-11-02T10:34:27.844488+00:00 app[web.1]:     from lxml import html
+2017-11-02T10:34:27.844492+00:00 app[web.1]: ModuleNotFoundError: No module named 'lxml'
+2017-11-02T10:34:27.906185+00:00 heroku[web.1]: Process exited with status 1
+2017-11-02T10:34:27.924840+00:00 heroku[web.1]: State changed from starting to crashed
+2017-11-02T10:34:47.797739+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=4866d67b-0ccc-466a-b4f4-b688ac415543 fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:35:24.140554+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=d145631b-0a9f-4bce-a41f-22597750e122 fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:35:26.625857+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=090abd07-9491-436a-9ff7-3cd02be84cfe fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:35:39.346784+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=815fd9b7-c0e9-46e3-b072-0fd142d519ba fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:36:53.198158+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=1b589acd-1fa9-42af-833f-424dee56e09d fwd="203.244.219.242" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:38:17.580700+00:00 heroku[web.1]: State changed from crashed to starting
+2017-11-02T10:38:20.497643+00:00 heroku[web.1]: Starting process with command `python andrew.py`
+2017-11-02T10:38:23.589165+00:00 app[web.1]:   File "andrew.py", line 11, in <module>
+2017-11-02T10:38:23.589141+00:00 app[web.1]: Traceback (most recent call last):
+2017-11-02T10:38:23.589330+00:00 app[web.1]:     from lxml import html
+2017-11-02T10:38:23.589355+00:00 app[web.1]: ModuleNotFoundError: No module named 'lxml'
+2017-11-02T10:38:23.696330+00:00 heroku[web.1]: Process exited with status 1
+2017-11-02T10:38:23.711236+00:00 heroku[web.1]: State changed from starting to crashed
+2017-11-02T10:42:14.000000+00:00 app[api]: Build started by user alexeyla@mail.ru
+2017-11-02T10:42:28.706320+00:00 heroku[web.1]: State changed from crashed to down
+2017-11-02T10:42:14.000000+00:00 app[api]: Build succeeded
+2017-11-02T10:42:28.347143+00:00 app[api]: Deploy a9a71e08 by user alexeyla@mail.ru
+2017-11-02T10:42:28.347143+00:00 app[api]: Release v5 created by user alexeyla@mail.ru
+2017-11-02T10:44:52.086131+00:00 app[api]: Scaled to worker@1:Free by user alexeyla@mail.ru
+2017-11-02T10:44:55.757592+00:00 heroku[worker.1]: Starting process with command `python andrew.py`
+2017-11-02T10:44:56.447729+00:00 heroku[worker.1]: State changed from starting to up
+2017-11-02T10:44:59.296740+00:00 app[worker.1]: Traceback (most recent call last):
+2017-11-02T10:44:59.296757+00:00 app[worker.1]:   File "andrew.py", line 11, in <module>
+2017-11-02T10:44:59.296936+00:00 app[worker.1]:     from lxml import html
+2017-11-02T10:44:59.296960+00:00 app[worker.1]: ModuleNotFoundError: No module named 'lxml'
+2017-11-02T10:44:59.465722+00:00 heroku[worker.1]: State changed from up to crashed
+2017-11-02T10:44:59.468402+00:00 heroku[worker.1]: State changed from crashed to starting
+2017-11-02T10:44:59.439735+00:00 heroku[worker.1]: Process exited with status 1
+2017-11-02T10:45:02.253311+00:00 heroku[worker.1]: Starting process with command `python andrew.py`
+2017-11-02T10:45:02.908010+00:00 heroku[worker.1]: State changed from starting to up
+2017-11-02T10:45:03.789620+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=0a08dbdc-f29e-4c0c-a1c7-5cf0821c9d25 fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https
+2017-11-02T10:45:04.496027+00:00 app[worker.1]: Traceback (most recent call last):
+2017-11-02T10:45:04.496240+00:00 app[worker.1]:     from lxml import html
+2017-11-02T10:45:04.496049+00:00 app[worker.1]:   File "andrew.py", line 11, in <module>
+2017-11-02T10:45:04.496283+00:00 app[worker.1]: ModuleNotFoundError: No module named 'lxml'
+2017-11-02T10:45:04.634810+00:00 heroku[worker.1]: State changed from up to crashed
+2017-11-02T10:45:04.619423+00:00 heroku[worker.1]: Process exited with status 1
+2017-11-02T10:54:43.000000+00:00 app[api]: Build started by user alexeyla@mail.ru
+2017-11-02T10:54:57.033094+00:00 app[api]: Deploy b1404abf by user alexeyla@mail.ru
+2017-11-02T10:54:57.033094+00:00 app[api]: Release v6 created by user alexeyla@mail.ru
+2017-11-02T10:54:43.000000+00:00 app[api]: Build succeeded
+2017-11-02T10:54:57.829057+00:00 heroku[worker.1]: State changed from crashed to starting
+2017-11-02T10:55:00.567943+00:00 heroku[worker.1]: Starting process with command `python andrew.py`
+2017-11-02T10:55:01.176011+00:00 heroku[worker.1]: State changed from starting to up
+2017-11-02T10:55:03.070600+00:00 app[worker.1]: Traceback (most recent call last):
+2017-11-02T10:55:03.070616+00:00 app[worker.1]:   File "andrew.py", line 84, in <module>
+2017-11-02T10:55:03.070875+00:00 app[worker.1]:     main()
+2017-11-02T10:55:03.070879+00:00 app[worker.1]:   File "andrew.py", line 74, in main
+2017-11-02T10:55:03.071067+00:00 app[worker.1]:     baks = page_dollar_scraping.get_Baks()
+2017-11-02T10:55:03.071087+00:00 app[worker.1]:   File "/app/page_dollar_scraping.py", line 10, in get_Baks
+2017-11-02T10:55:03.071239+00:00 app[worker.1]:     from bs4 import BeautifulSoup
+2017-11-02T10:55:03.071274+00:00 app[worker.1]: ModuleNotFoundError: No module named 'bs4'
+2017-11-02T10:55:03.152019+00:00 heroku[worker.1]: Process exited with status 1
+2017-11-02T10:55:03.167501+00:00 heroku[worker.1]: State changed from up to crashed
+2017-11-02T10:55:27.209751+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=mysterious-woodland-18859.herokuapp.com request_id=46528b47-d4c9-495f-9244-9be798287d09 fwd="212.44.150.238" dyno= connect= service= status=503 bytes= protocol=https

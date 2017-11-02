@@ -5,11 +5,12 @@ Created on Mon Aug 14 18:09:59 2017
 @author: a.lantsov
 """
 
+import requests
+from bs4 import BeautifulSoup
+import time
+
 def get_Baks():
-    import requests
-    from bs4 import BeautifulSoup
-    import time
-    
+
     cur_date = time.strftime("%d.%m.%Y")
     
     url_baks = "http://mfd.ru/currency/"
