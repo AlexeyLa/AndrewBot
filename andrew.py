@@ -8,7 +8,6 @@ Created on Mon Aug 14 17:20:47 2017
 import json 
 import requests
 import time
-from lxml import html
 import page_dollar_scraping
 from dbhelper import DBHelper
 
@@ -69,7 +68,6 @@ def handle_updates(updates):
             pass
 
 def main():
-    last_textchat = (None, None)
     while True:
         text, chat = get_last_chat_id_and_text(get_updates())
         if (text.lower() == "чо с баксом?"):

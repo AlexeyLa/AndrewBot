@@ -5,9 +5,6 @@ Created on Mon Aug 14 18:09:59 2017
 @author: a.lantsov
 """
 
-#from lxml import html
-#from lxml import etree
-
 def get_Baks():
     import requests
     from bs4 import BeautifulSoup
@@ -15,7 +12,6 @@ def get_Baks():
     
     cur_date = time.strftime("%d.%m.%Y")
     
-    url = "http://dataquestio.github.io/web-scraping-pages/simple.html"
     url_baks = "http://mfd.ru/currency/"
     
     page = requests.get(url_baks)
